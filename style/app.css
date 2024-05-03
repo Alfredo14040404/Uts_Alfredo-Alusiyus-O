@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(#05daf2 0% , #3e95ed 40% , #ed2467 100%);
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.image{
+    width: 200px;
+}
+.profile h2{
+    color: white;
+}
+.profile h4{
+    color: white;
+}
+.text h2{
+    color: white;
+}
+.text h5{
+    color: white;
+}
+.icons{
+    display: flex;
+    position: absolute;
+    top:0%;
+    left:0%;
+    transform: translate(50%, -50%);
+    transform: translateY(50%);
+}
+.icons a{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0 ,5);
+}
+.icons a :nth-child(1):hover{
+    background-color:#3e95ed;
+}
+.icons a :nth-child(2):hover{
+    background-color: #3e95ed;
+}
+.icons a :nth-child(3):hover{
+    background-color: #3e95ed;
+}
+.icons a :nth-child(4):hover{
+    background-color: #3e95ed;
+}
